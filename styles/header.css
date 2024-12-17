@@ -11,6 +11,13 @@ header {
     align-items: center;
 }
 
+.profile .project-photo img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .profile .profile-info {
     margin-left: 32px;
     font: var(--text-md);
