@@ -1,0 +1,39 @@
+header {
+    padding: 32px;
+    display: flex;
+    background-color: var(--surface-color);
+}
+
+.profile {
+    width: 624px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .profile-info {
+    margin-left: 32px;
+}
+
+.profile .profile-info h1 {
+    color: var(--text-color-primary);
+}
+
+.info {
+    width: 280px;
+    gap: 16px;
+    justify-content: center; 
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info .info-item {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+}
+
+.info .info-item span {
+    margin-left: 8px;
+}
