@@ -1,0 +1,14 @@
+footer {
+    padding: 24px 36px 24px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer ul li{
+    list-style: none;
+}
