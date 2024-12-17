@@ -13,9 +13,11 @@ header {
 
 .profile .profile-info {
     margin-left: 32px;
+    font: var(--text-md);
 }
 
 .profile .profile-info h1 {
+    font: var(--text-lg);
     color: var(--text-color-primary);
 }
 
